@@ -19,3 +19,7 @@ let mails=[
         date:"Sep 23, 2015" , 
         emailpic:"images\avatar2.png"}
 ];
+
+document.getElementById("fullname1").innerText=mails[0].from;
+document.getElementById("fullname2").innerText=mails[1].from;
+document.getElementById("fullname3").innerText=mails[2].from;
